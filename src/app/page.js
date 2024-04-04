@@ -1,4 +1,5 @@
 import Project from "@/components/contain-projects";
+import MyForm from "@/components/form";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
         <section className="py-[100px]" id="projects">
           <h2 className="text-3xl md:text-5xl text-center"><b>Mis Proyectos!</b></h2>
           <h3 className="md:text-lg text-center mb-5">Revisa mi gran colección de proyectos personales que he realizado. Son impresionantes!</h3>
-          <Project nombre='Octagon' descripcion='Blog Personal hecho con React y Tailwind' imagen='./blog-project.png' link='https://github.com/Chrlssstlanx/' />
+          <Project nombre='Octagon' descripcion='Blog personal hecho con React y Tailwind' imagen='./blog-project.png' link='https://blog-one-ivory-47.vercel.app/' />
+          <Project nombre='Web Corporativa' descripcion='Web corporativa creada con Next, React y Tailwind' imagen='./web-corporative-project.png' link='https://corporate-web-sooty.vercel.app/' />
+          <Project nombre='App de Música' descripcion='App de música creada con Html, Css y Javascript vanila' imagen='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
         </section>
         <section className="py-[100px]" id="skills">
           <h2 className="text-3xl md:text-5xl text-center"><b>Mis Habilidades</b></h2>
@@ -38,12 +41,7 @@ export default function Home() {
         <section className="pt-[100px] pb-[50px]" id="contact">
           <h2 className="text-3xl md:text-5xl text-center"><b>Contactame</b></h2>
           <h3 className="md:text-lg text-center">Contactame si necesitas realizar un proyecto web o si deseas colaborar conmigo.</h3>
-          <form className="flex flex-col justify-center items-center gap-5 mt-5">
-            <input type="text" placeholder="Nombre Completo" required className="border-gray-400 border-[1px] rounded-[3px] py-1 px-2 min-w-[350px]" />
-            <input type="email" placeholder="Correo Electronico" required className="border-gray-400 border-[1px] rounded-[3px] py-1 px-2 min-w-[350px]" />
-            <textarea placeholder="Ingrese su Mensaje" required className="border-gray-400 border-[1px] rounded-[3px] py-1 px-2 min-w-[350px]"></textarea>
-            <input type="submit" value="Enviar" className="bg-black text-white py-2 px-6 rounded-[5px] cursor-pointer" />
-          </form>
+          <MyForm />
           <div className="flex justify-center gap-[15px] my-[25px]">
             <a href="https://github.com/Chrlssstlanx/" target="_BLANK">
               <img src="./brand-github.png" alt="Github" className="w-[50px] h-[50px] cursor-pointer" />
