@@ -5,7 +5,7 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Desarrollador Fullstack | Cristian Bautista Pérez",
+  title: "Desarrollador Fullstack | Blitzkreig",
   description: "Portafolio Web de un desarrollador web fullstack",
 };
 

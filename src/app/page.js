@@ -6,7 +6,7 @@ export default function Home() {
       <main>
         <header className="hidden absolute w-full h-[60px] md:flex flex-row justify-between items-center px-[25px]">
           <div>
-            <img src="./code-off.svg" alt="code-off" className="hidden md:block w-[40px]"/>
+            <img src="./icon-light.svg" alt="Blitzkreig" className="hidden md:block w-[40px]"/>
           </div>
           <nav className="flex gap-y-5 gap-x-8">
             <a className="cursor-pointer" href="#projects"><b>Proyectos</b></a>
@@ -15,19 +15,19 @@ export default function Home() {
           </nav>
         </header>
         <section className="h-[100vh] flex flex-col justify-center items-center gap-5" id="home">
-          <h1 className="text-3xl md:text-5xl text-center"><b>Hola! Me llamo Cristian</b></h1>
-          <h2 className="text-xl md:text-xl text-center">Soy Desarrollador Web Fullstack y Diseñador Web</h2>
+          <h1 className="text-3xl md:text-5xl text-center"><b>Hola! Yo soy <span className="text-emerald-800">Blitzkreig</span></b></h1>
+          <h2 className="text-xl md:text-xl text-center">Desarrollador Web Fullstack y Diseñador Web</h2>
         </section>
         <section className="py-[100px]" id="projects">
-          <h2 className="text-3xl md:text-5xl text-center"><b>Mis Proyectos!</b></h2>
+          <h2 className="text-3xl md:text-5xl text-center"><b>Mis Proyectos</b></h2>
           <h3 className="md:text-lg text-center mb-5">Revisa mi gran colección de proyectos personales que he realizado. Son impresionantes!</h3>
-          <Project nombre='Octagon' descripcion='Blog personal hecho con React y Tailwind' imagen='./blog-project.png' link='https://blog-one-ivory-47.vercel.app/' />
-          <Project nombre='Web Corporativa' descripcion='Web corporativa creada con Next, React y Tailwind' imagen='./web-corporative-project.png' link='https://corporate-web-sooty.vercel.app/' />
-          <Project nombre='App de Música' descripcion='App de música creada con Html, Css y Javascript vanila' imagen='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
+          <Project nombre='Blog Personal' descripcion='Blog personal hecho con React y Tailwind' imagen='./blog-project.png' link='https://blog-one-ivory-47.vercel.app/' />
+          <Project nombre='Plantilla Corporativa' descripcion='Plantilla corporativa creada con Next, React y Tailwind' imagen='./web-corporative-project.png' link='https://corporate-web-sooty.vercel.app/' />
+          <Project nombre='Componente de Música' descripcion='App de música creada con Html, Css y Javascript vanilla' imagen='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
         </section>
         <section className="py-[100px]" id="skills">
-          <h2 className="text-3xl md:text-5xl text-center"><b>Mis Habilidades</b></h2>
-          <h3 className="md:text-lg text-center">Estas son las habilidades en las que soy lo suficientemente competente para desarrollar proyectos web.</h3>
+          <h2 className="text-3xl md:text-5xl text-center"><b>Mi Stack de Habilidades</b></h2>
+          <h3 className="md:text-lg text-center">Este es mi Stack de las tecnologías y herramientas en las que soy competente para desarrollar proyectos web.</h3>
           <ul className="text-center mt-5 flex flex-col justify-start items-center gap-2">
             <li>HTML</li>
             <li>CSS / TailwindCSS</li>
@@ -35,11 +35,11 @@ export default function Home() {
             <li>React / NextJS</li>
             <li>NodeJS / Express</li>
             <li>PostgreSQL</li>
-            <li>Python / Django</li>
+            <li>Git / GitHub</li>
           </ul>
         </section>
         <section className="pt-[100px] pb-[50px]" id="contact">
-          <h2 className="text-3xl md:text-5xl text-center"><b>Contactame</b></h2>
+          <h2 className="text-3xl md:text-5xl text-center"><b>Hablemos</b></h2>
           <h3 className="md:text-lg text-center">Contactame si necesitas realizar un proyecto web o si deseas colaborar conmigo.</h3>
           <MyForm />
           <div className="flex justify-center gap-[15px] my-[25px]">
