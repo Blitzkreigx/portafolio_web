@@ -22,7 +22,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl text-center"><b>Mis Proyectos</b></h2>
           <h3 className="md:text-lg text-center mb-5">Revisa mi gran colección de proyectos personales que he realizado. Son impresionantes!</h3>
           <Project nombre='Blog Personal' descripcion='Blog personal hecho con React y Tailwind' imagen='./blog-project.png' link='https://blog-one-ivory-47.vercel.app/' />
-          <Project nombre='Plantilla Corporativa' descripcion='Plantilla corporativa creada con Next, React y Tailwind' imagen='./web-corporative-project.png' link='https://corporate-web-sooty.vercel.app/' />
+          <Project nombre='Plantilla Corporativa' descripcion='Plantilla corporativa creada con Next, React y Tailwind' imagen='./template-corporate-project.png' link='https://corporate-web-sooty.vercel.app/' />
           <Project nombre='Componente de Música' descripcion='App de música creada con Html, Css y Javascript vanilla' imagen='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
         </section>
         <section className="py-[100px]" id="skills">
