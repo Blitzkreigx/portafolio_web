@@ -16,18 +16,20 @@ export default function Home() {
         </header>
         <section className="h-[100vh] flex flex-col justify-center items-center gap-5" id="home">
           <h1 className="text-3xl md:text-5xl text-center"><b>Hola! Yo soy <span className="text-emerald-800">Blitzkreig</span></b></h1>
-          <h2 className="text-xl md:text-xl text-center">Desarrollador Web Fullstack y Diseñador Web</h2>
+          <h2 className="text-xl md:text-xl text-center">Desarrollador Web Fullstack y Diseñador Web minimalista</h2>
         </section>
         <section className="py-[100px]" id="projects">
           <h2 className="text-3xl md:text-5xl text-center"><b>Mis Proyectos</b></h2>
-          <h3 className="md:text-lg text-center mb-5">Revisa mi gran colección de proyectos personales que he realizado. Son impresionantes!</h3>
-          <Project nombre='Blog Personal' descripcion='Blog personal hecho con React y Tailwind' imagen='./blog-project.png' link='https://blog-one-ivory-47.vercel.app/' />
-          <Project nombre='Plantilla Corporativa' descripcion='Plantilla corporativa creada con Next, React y Tailwind' imagen='./template-corporate-project.png' link='https://corporate-web-sooty.vercel.app/' />
-          <Project nombre='Componente de Música' descripcion='App de música creada con Html, Css y Javascript vanilla' imagen='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
+          <h3 className="md:text-lg text-center mb-5">Revisa mi gran colección de proyectos personales que he realizado. Son interesantes!</h3>
+          <Project nombre='Tienda online' descripcion='Tienda online creada con Vite, React, Tailwind, NodeJS, Espress y PostgreSQL' imagen='./web-store-project.png' link='https://github.com/Blitzkreigx/web_store/' />
+          <Project nombre='Cursos y Mentorías' descripcion='Página de cursos y mentorías creada con NextJS, React y Tailwind' imagen='./course-web-project.png' link='https://github.com/Blitzkreigx/course_web/' />
+          <Project nombre='Blog Personal' descripcion='Blog personal creadad con Vite, React y Tailwind' imagen='./blog-project.png' link='https://blog-one-ivory-47.vercel.app/' />
+          <Project nombre='Plantilla Corporativa' descripcion='Plantilla corporativa creada con NextJS, React y Tailwind' imagen='./template-corporate-project.png' link='https://corporate-web-sooty.vercel.app/' />
+          <Project nombre='Componente de Música' descripcion='Componente de música creada con Html, Css y Javascript vanilla' imagen='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
         </section>
         <section className="py-[100px]" id="skills">
           <h2 className="text-3xl md:text-5xl text-center"><b>Mi Stack de Habilidades</b></h2>
-          <h3 className="md:text-lg text-center">Este es mi Stack de las tecnologías y herramientas en las que soy competente para desarrollar proyectos web.</h3>
+          <h3 className="md:text-lg text-center">Este es mi Stack de las tecnologías y herramientas con las que realizo proyectos web.</h3>
           <ul className="text-center mt-5 flex flex-col justify-start items-center gap-2">
             <li>HTML</li>
             <li>CSS / TailwindCSS</li>
@@ -43,10 +45,10 @@ export default function Home() {
           <h3 className="md:text-lg text-center">Contactame si necesitas realizar un proyecto web o si deseas colaborar conmigo.</h3>
           <MyForm />
           <div className="flex justify-center gap-[15px] my-[25px]">
-            <a href="https://github.com/Chrlssstlanx/" target="_BLANK">
+            <a href="https://github.com/Blitzkreigx" target="_BLANK">
               <img src="./brand-github.png" alt="Github" className="w-[50px] h-[50px] cursor-pointer" />
             </a>
-            <a href="https://www.linkedin.com/in/chrlssstlan-x-958360288/" target="_BLANK">
+            <a href="https://www.linkedin.com/in/blitzkreig-x-958360288/" target="_BLANK">
               <img src="./brand-linkedin.png" alt="Lindedin" className="w-[50px] h-[50px] cursor-pointer" />
             </a>
             <a href="https://wa.me/525573237684?text=Hola,%20me%20gustaría%20realizar%20una%20consulta" target="_BLANK">
