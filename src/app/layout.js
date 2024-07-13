@@ -4,8 +4,8 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Desarrollador Fullstack | Blitzkreig",
-  description: "Desarrollador Fullstack con conocimientos en React, NextJS, Tailwindcss, NodeJS, Express, PostgreSQL, Typescript, Metodología MVC",
+  title: "Blitzkreig | Desarrollador Web Fullstack",
+  description: "Desarrollador Fullstack con conocimientos en React, NextJS, Tailwindcss, NodeJS, Express, PostgreSQL, Typescript y uso de Metodología MVC",
 };
 
 export default function RootLayout({ children }) {

@@ -13,16 +13,16 @@ export default function Home() {
         </header>
         <article className="max-w-[800px] min-h-screen mx-auto text-center flex flex-col justify-center items-center">
           <h1 className="text-5xl">Blitzkreig</h1>
-          <h2 className="text-2xl text-zinc-300">Desarrollador Web Fullstack y Diseñador Web minimalista</h2>
+          <h2 className="text-2xl text-zinc-300">Desarrollador Web Fullstack y Diseñador minimalista</h2>
         </article>
         <article className="max-w-[800px] mx-auto text-center">
         <section className="pt-[100px]" id="projects">
           <h2 className="text-2xl">Mis Proyectos</h2>
-          <Project name='Tienda online' description='Tienda online creada con Vite, React y Tailwind' image='./web_store_project.png' link='https://online-web-store-frontend.vercel.app/' />
-          <Project name='Cursos y Mentorías' description='Página de cursos y mentorías creada con NextJS, React y Tailwind' image='./course_web_project.png' link='https://course-web-ebon.vercel.app/' />
-          <Project name='Blog Personal' description='Blog personal creadad con Vite, React y Tailwind' image='./blog_project.png' link='https://blog-one-ivory-47.vercel.app/' />
-          <Project name='Web Corporativa' description='Web corporativa creada con NextJS, React y Tailwind' image='./web_corporative_project.png' link='https://corporate-web-sooty.vercel.app/' />
-          <Project name='Componente de Música' description='Componente de música creada con Html, Css y Javascript vanilla' image='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
+          <Project name='Tienda online' description='Tienda online creada con Vite, React y Tailwind. Puede filtrar los productos por categoría y puede añadirlos al carrito cuando desee.' image='./web_store_project.png' link='https://online-web-store-frontend.vercel.app/' />
+          <Project name='Cursos y Mentorías' description='Página de cursos y mentorías creada con NextJS, React y Tailwind. Tiene varias secciones web incluyendo una sección para la administración del usuario.' image='./course_web_project.png' link='https://course-web-ebon.vercel.app/' />
+          <Project name='Blog Personal' description='Blog personal creadad con Vite, React y Tailwind. Incluye un par de secciones y publicaciones.' image='./blog_project.png' link='https://blog-one-ivory-47.vercel.app/' />
+          <Project name='Web Corporativa' description='Web corporativa creada con NextJS, React y Tailwind. Tiene varias secciones y puedes cambiar el tema de la página.' image='./web_corporative_project.png' link='https://corporate-web-sooty.vercel.app/' />
+          <Project name='Componente de Música' description='Componente de música creada con Html, Css y Javascript vanilla. Capaz de pausar y reproducir una música anterior o siguiente.' image='./music-app-project.png' link='https://music-app-zeta-five.vercel.app/' />
         </section>
         <section className="py-[100px]" id="skills">
           <h2 className="text-2xl">Mi Stack de Habilidades</h2>
